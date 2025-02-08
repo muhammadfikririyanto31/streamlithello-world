@@ -7,3 +7,4 @@ scikit-image
 pillow
 streamlit
 streamlit-drawable-canvas
+
