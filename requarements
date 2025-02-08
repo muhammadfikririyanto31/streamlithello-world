@@ -1,7 +1,7 @@
-opencv-python-headless==4.11.0
+opencv-python-headless
 tensorflow==2.18.0
 numpy
 scikit-image
 pillow
 streamlit-drawable-canvas
-opencv-python
+
