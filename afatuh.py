@@ -1,9 +1,10 @@
-import streamlit as st
+
 import numpy as np
 import os
 import sys
 import streamlit as st
 st.write("Python Executable:", sys.executable)
+os.system("pip install -r requirements.txt")  # Paksa install ulang semua paket
 st.write("Installed Packages:", os.popen("pip list").read())
 import cv2
 from skimage.morphology import skeletonize
