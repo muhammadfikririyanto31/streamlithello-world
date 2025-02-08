@@ -1,15 +1,20 @@
 
-import numpy as np
 import os
 import sys
 import streamlit as st
-st.write("Python Executable:", sys.executable)
-os.system("pip install -r requirements.txt")  # Paksa install ulang semua paket
-st.write("Installed Packages:", os.popen("pip list").read())
-import cv2
+
+st.write("Python Executable:", sys.executable)  # Cek path Python
+os.system("pip install --upgrade pip")  # Pastikan pip versi terbaru
+os.system("pip install numpy pandas tensorflow-cpu opencv-python-headless scikit-image pillow streamlit-drawable-canvas")  # Paksa install paket
+
+st.write("Installed Packages:", os.popen("pip list").read())  # Cek paket yang terinstall
+
+import cv2  # Sekarang coba import ulang
+import numpy as np
 from skimage.morphology import skeletonize
 from skimage.feature import hog
 from skimage import color, exposure
+
 import os
 os.system("pip install tensorflow==2.18.0")
 import tensorflow as tf
