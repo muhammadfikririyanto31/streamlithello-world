@@ -10,3 +10,10 @@ scikit-image
 pillow
 streamlit-drawable-canvas
 pip==24.2
+tensorflow
+numpy
+opencv-python-headless
+scikit-image
+pillow
+streamlit
+streamlit-drawable-canvas
