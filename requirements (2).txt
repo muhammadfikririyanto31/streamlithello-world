@@ -1,8 +1,0 @@
-numpy==2.0.2
-pandas==2.2.3
-tensorflow-cpu==2.18.0
-opencv-python-headless==4.11.0.86
-scikit-image==0.25.1
-pillow==11.1.0
-streamlit==1.42.0
-streamlit-drawable-canvas==0.9.3
