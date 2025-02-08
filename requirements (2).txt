@@ -1,8 +1,7 @@
 numpy==1.26.4
 pandas==2.2.2
 tensorflow==2.18.0
-numpy
-opencv-python-headless
+opencv-python-headless==4.11.0
 scikit-image
 pillow
 streamlit
