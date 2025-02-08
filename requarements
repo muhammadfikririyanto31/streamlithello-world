@@ -1,4 +1,4 @@
-opencv-python-headless
+opencv-python-headless==4.11.0
 tensorflow==2.18.0
 numpy
 scikit-image
