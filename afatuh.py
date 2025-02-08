@@ -2,7 +2,6 @@
 import os
 import sys
 import streamlit as st
-os.system("pip install opencv-python-headless")
 import cv2  
 import numpy as np
 from skimage.morphology import skeletonize
