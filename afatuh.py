@@ -5,6 +5,9 @@ import cv2
 from skimage.morphology import skeletonize
 from skimage.feature import hog
 from skimage import color, exposure
+import os
+os.system("pip install tensorflow-cpu==2.9.1")
+import tensorflow as tf
 from skimage.transform import resize
 from PIL import Image, ImageDraw, ImageFont
 import streamlit_drawable_canvas as stc
