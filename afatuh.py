@@ -1,12 +1,11 @@
 import streamlit as st
 import numpy as np
-import tensorflow as tf
 import cv2
 from skimage.morphology import skeletonize
 from skimage.feature import hog
 from skimage import color, exposure
 import os
-os.system("pip install tensorflow-cpu==2.9.1")
+os.system("pip install tensorflow==2.18.0")
 import tensorflow as tf
 from skimage.transform import resize
 from PIL import Image, ImageDraw, ImageFont
