@@ -1,20 +1,9 @@
 numpy==1.26.4
 pandas== 2.2.2
-streamlit
-pickle
-streamlit
-numpy
-tensorflow
-opencv-python
-scikit-image
-pillow
-streamlit-drawable-canvas
-pip==24.2
-tensorflow
+tensorflow-cpu==2.9.1
 numpy
 opencv-python-headless
 scikit-image
 pillow
 streamlit
 streamlit-drawable-canvas
-tensorflow-cpu==2.9.1
