@@ -1,7 +1,10 @@
 import streamlit as st
 import numpy as np
 import os
-os.system("pip install opencv-python-headless==4.11.0")
+import sys
+import streamlit as st
+st.write("Python Executable:", sys.executable)
+st.write("Installed Packages:", os.popen("pip list").read())
 import cv2
 from skimage.morphology import skeletonize
 from skimage.feature import hog
